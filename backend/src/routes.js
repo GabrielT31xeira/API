@@ -2,15 +2,11 @@ const express = require ('express');
 
 const routes = express.Router();
 
-routes.post('/users',(request, response)=>{
-    const params = request.body;
+routes.post('/ong',(request, response)=>{
+    const data = request.body;
+    console.log(data);
 
-    console.log(params);
-
-    return response.json({
-        evento : 'semana omini',
-        nome : 'Gabriel Teixeira'
-    });
+    return response.json();
 });
 
-modules.exports = routes;
+module.exports = routes;
