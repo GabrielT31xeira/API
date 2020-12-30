@@ -13,9 +13,9 @@ export default function Register(){
                <section>
                    <h1>Cadastro</h1>
                    <p>Faça seu cadastro</p>
-                   <Link className="back-link" to="/register">
+                   <Link className="back-link" to="/">
                         <FiArrowLeft size={16} />
-                    Não tenho cadastro</Link>
+                    Login</Link>
                </section>
                <form>
                     <input placeholder="Nome da ONG"/>
